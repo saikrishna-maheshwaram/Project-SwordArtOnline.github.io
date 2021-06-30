@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sword Art Online</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="css/font.css">
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      body{
+        background-color: black;
+        
+      }
+      .navbar-brand{ 
+        color: #57c4e3 ;
+        font-family: 'sao';
+        font-size: 50px;
+      }
+      .nav-link{
+        font-family: 'sao';
+        font-size: 30px;
+      }
+      img{
+        object-fit: cover;
+      }
+      .carousel-item {
+        margin-top: 4.5%;
+        height: 75vh;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      #imgCover{
+        width: 1100px;
+        opacity: 0.7;
+      }
+      .container p{
+        text-align: justify;
+      }
+      .card:hover{
+        transform: scale(1.15);
+        transition: all ease-in;
+      }
+      .card-img-top{
+        min-width: 100%;
+        height: 220px;
+        border-radius: 20px !important;
+      }
+      .title{
+        font-size: 20px;
+        padding-top: 10px;
+      }
+      .subtitle{
+        font-size: 15px;
+        padding-bottom:50px;
+      }
+
+      @media only screen and (max-width: 500px) {
+      .navbar-brand{
+        font-size: 30px;
+      }
+      .nav-link{
+        font-size: 15px;
+      }
+      #caro{
+        margin-top: 12%;
+      }
+      .carousel-item{
+        width: 100%;
+        height: 180px;
+      }
+      #imgCover{
+        width: 330px;
+        opacity: 0.7;
+        object-fit: cover;
+      }
+      p{
+        font-size: 10px;
+      }
+      #sub-title{
+        font-size: 13px;
+      }
+      .card{
+        height: 110px;
+      }
+      .card-title{
+        font-size: 12px;
+      }
+      .card-sub-title{
+        font-size: 10px;
+      }
+      .title{
+        font-size: 11px;
+        margin-top: 6px;
+      }
+      .subtitle{
+        font-size: 8px;
+        margin-top: 4px;
+      }
+      .card-img-top{
+        width: 100%;
+        height: 110px;
+        border-radius: 8px;
+      }
+      #footer{
+        padding:12px !important;
+        font-size: 11px;
+      }
+      }
+      @media only screen and (min-width:501px) and (max-width:1200px){
+
+      .navbar-brand{
+        font-size: 50px;
+      }
+      .nav-link{
+        font-size: 25px;
+      }
+      #caro{
+        margin-top: 5%;
+      }
+      .carousel-item{
+        width: 100%;
+        height: 500px;
+      }
+      #sub-title{
+        font-size: 40px;
+      }
+      p{
+        font-size: 25px;
+      }
+      .title{
+        font-size: 22px;
+      }
+      .subtitle{
+        font-size: 20px;
+      }
+      #footer{
+        padding: 25px !important;
+      }        
+       }
+      
+    </style>
+  </head>
+
+  <body>
+
+  <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Sword Art Online</a>
+
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="watch.html">Watch</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <!-- Carousel -->
+    <header id="caro">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active"  style="background-image: url('images/carousel/1103597.png')"></div>
+          <div class="carousel-item" style="background-image: url('images/carousel/764567.jpg')"></div>
+          <div class="carousel-item" style="background-image: url('images/carousel/794319.png')"></div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Information -->
+    <div class="container text-white">
+      <h1 class="my-4" id="sub-title">Welcome to Aincrad</h1>
+      <img id="imgCover" src="images/791996.png" alt="">
+
+      <p>In 2022, a virtual reality massively multiplayer online role-playing game (VRMMORPG) called Sword Art Online (SAO) is released. With the NerveGear, a helmet that stimulates the user's five senses via their brain, players can experience and control their in-game characters with their minds. Both the game and the NerveGear were created by Akihiko Kayaba.</p><br>
+
+      <p> On November 6, 10,000 players log into SAO's mainframe cyberspace for the first time, only to discover that they are unable to log out. Kayaba appears and tells the players that they must beat all 100 floors of Aincrad, a steel castle which is the setting of SAO if they wish to be free. He also states that those who suffer in-game deaths or forcibly remove the NerveGear out-of-game will suffer real-life deaths.</p><br>
+      
+      <p>One of the players named Kazuto "Kirito" Kirigaya, is one of 1,000 testers in the game's previous closed beta. With the advantage of previous VR gaming experience and a drive to protect other beta testers from discrimination, he isolates himself from the greater groups and plays the game alone, bearing the mantle of "beater", a portmanteau of "beta tester" and "cheater". As the players progress through the game Kirito eventually befriends a young girl named Asuna Yuuki, forming a relationship with and later marrying her in-game. After the duo discover the identity of Kayaba's secret ID, who was playing as the leader of the guild Asuna joined in, they confront and destroy him, freeing themselves and the other players from the game.</p><br>
+      
+      <p>In the real world, Kazuto discovers that 300 SAO players, including Asuna, remain trapped in their NerveGear. As he goes to the hospital to see Asuna, he meets Asuna's father Shouzou Yuuki who is asked by an associate of his, Nobuyuki Sugou, to make a decision, which Sugou later reveals to be his marriage with Asuna, angering Kazuto. Several months later, he is informed by Agil, another SAO survivor, that a figure similar to Asuna was spotted on "The World Tree" in another VRMMORPG cyberspace called Alfheim Online (ALO). Assisted in-game by his cousin Suguha "Leafa" Kirigaya and Yui, a navigation pixie (originally an AI from SAO), he quickly learns that the trapped players in ALO are part of a plan conceived by Sugou to perform illegal experiments on their minds. The goal is to create the perfect mind-control for financial gain and to subjugate Asuna, whom he intends to marry in the real world, to assume control of her family's corporation. Kirito eventually stops the experiment and rescues the remaining 300 SAO players, foiling Sugou's plans. Before leaving ALO to see Asuna, Kayaba, who has uploaded his mind to the Internet using an experimental and destructively high-power version of NerveGear at the cost of his life, entrusts Kirito with The Seed – a package program designed to create virtual worlds. Kazuto eventually reunites with Asuna in the real world and The Seed is released onto the Internet, reviving Aincrad as other VRMMORPGs begin to thrive.</p><br>
+      
+      <p>One year after the events of SAO, at the prompting of a government official investigating strange occurrences in VR, Kazuto takes on a job to investigate a series of murders involving another VRMMORPG called Gun Gale Online (GGO), the AmuSphere (the successor of the NerveGear), and a player called Death Gun. Aided by a female player named Shino "Sinon" Asada, he participates in a gunfight tournament called the Bullet of Bullets (BoB) and discovers the truth behind the murders, which originated with a player who participated in a player-killing guild in SAO. Through his and Sinon's efforts, two suspects are captured, though the third suspect, Johnny Black, escapes.</p><br>
+      
+      <p> Kazuto is later recruited to test an experimental FullDive machine, Soul Translator (STL), which has an interface far more realistic and complex than the previous machine he had played, to help develop artificial intelligence for RATH, research, and development organization under the Ministry of Defense (MOD), named A.L.I.C.E. He tests the STL by entering virtual reality cyberspace created with The Seed package, named Underworld (UW). In the UW, the flow of time proceeds a thousand times faster than in the real world, and Kirito's memories of what happens inside are restricted. However, when Black ambushes and injures Kazuto with suxamethonium chloride, RATH recovers Kazuto and places him back into the STL to preserve his mind while attempts are made to save him. During his time in Underworld, Kirito befriends Eugeo, a carver in a small village of Rulid, and helps him on a journey to save Alice Zuberg, his friend who was taken by a group of highly skilled warriors known as the Integrity Knights for accidentally breaking a rule of the Axiom Church, the leaders of the Human Empire. He and Eugeo soon find themselves uncovering the secrets of the Axiom Church, led by a woman only known as "The Pontifex", and the true purpose of Underworld itself, while unbeknownst to them, a war against the opposing Dark Territory brewing on the horizon. Meanwhile, in the real world, conflict escalates as American forces raid RATH's facility in the Ocean Turtle in an effort to take A.L.I.C.E. for purposes unknown. Two of the attackers - Gabriel Miller and Vassago Cassals - take control of two Dark Territory characters as they unite the Dark Territory's giants, goblins, ogres, orcs, dark knights, dark mages, and pugilists to aid them. With help from all his friends, Kirito manages to stop the attackers as well as foreign players lured by Vassago, and safely extract A.L.I.C.E. from UW, who gains a physical body - with Miller and Vassago being killed in the process.</p><br>
+      
+      <p>One month later, Kirito and the others have their accounts forcibly migrated to Unital Ring, a new VRMMORPG which incorporates locations from all the other environments they previously visited, and investigate the cause while meeting some familiar faces. </p><br>
+    </div>
+
+    <!-- Characters -->
+    <div class="container">
+      <h2 class="text-white" id="sub-title">Lead Characters</h2><br>
+      <div class="row">
+
+        <div class="col-lg-4 col-sm-6  col-6 portfolio-item">
+          <div class="card" style="background-color: black;">
+            <a href="#"><img class="card-img-top" src="images/portfolio/Kirito.jpg" alt=""></a>
+          </div>
+          <h4 class="title text-muted text-center">Kirigaya Kazuto</h4>
+          <h5 class="subtitle text-muted text-center">Kirito</h5>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 col-6 portfolio-item">
+          <div class="card" style="background-color: black;">
+            <a href="#"><img class="card-img-top" src="images/portfolio/Asuna.jpg" alt=""></a>
+          </div>
+          <h4 class="title text-muted text-center">Asuna Yuki</h4>
+          <h5 class="subtitle text-muted text-center">Asuna</h5>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 col-6 portfolio-item">
+          <div class="card" style="background-color: black;">
+            <a href="#"><img class="card-img-top" src="images/portfolio/Kayaba.png" alt=""></a> 
+          </div>
+            <h4 class="title text-muted text-center">Akihiko Kayaba</h4>
+            <h5 class="subtitle text-muted text-center">Heathcliff</h5>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 col-6 portfolio-item">
+          <div class="card" style="background-color: black;">
+            <a href="#"><img class="card-img-top" src="images/portfolio/Sinon.jpg" alt=""></a>
+          </div>
+          <h4 class="title text-muted text-center">Shino Asada</h4>
+          <h5 class= "subtitle text-muted text-center">Sinon</h5>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 col-6 portfolio-item">
+          <div class="card" style="background-color: black;">
+            <a href="#"><img class="card-img-top" src="images/portfolio/Leafa.jpg" alt=""></a>
+          </div>
+          <h4 class="title text-muted text-center"> Suguha Kirigaya </h4>
+          <h5 class="subtitle text-muted text-center">Leafa</h5>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 col-6 portfolio-item">
+          <div class="card" style="background-color: black;">
+            <a href="#"><img class="card-img-top" src="images/portfolio/Eugeo.jpg" alt=""></a> 
+          </div>
+          <h4 class="title text-muted text-center">Eugeo</h4>
+          <h5 class="subtitle text-muted text-center">Eugeo</h5>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 col-6 portfolio-item">
+          <div class="card" style="background-color: black;">
+            <a href="#"><img class="card-img-top" src="images/portfolio/Alice.png" alt=""></a>
+          </div>
+          <h4 class="title text-muted text-center">Alice Zuberg </h4>
+          <h5 class="subtitle text-muted text-center">Alice Syntasis 30</h5>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 col-6 portfolio-item">
+          <div class="card" style="background-color: black;">
+            <a href="#"><img class="card-img-top" src="images/portfolio/kelin.png" alt=""></a>
+          </div>
+          <h4 class="title text-muted text-center">Tsuboi Ryoutarou</h4>
+          <h5 class="subtitle text-muted text-center">Klein</h5>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 col-6 portfolio-item">
+          <div class="card" style="background-color: black;">
+            <a href="#"><img class="card-img-top" src="images/portfolio/Rika.png" alt=""></a>
+          </div>
+          <h4 class="title text-muted text-center">Rika Shinozaki </h4>
+          <h5 class="subtitle text-muted text-center">Lisbeth</h5>
+        </div>
+      
+        <div class="col-lg-4 col-sm-6 col-6 portfolio-item">
+          <div class="card" style="background-color: black;">
+            <a href="#"><img class="card-img-top" src="images/portfolio/silika.jpg" alt=""></a>
+          </div>
+          <h4 class="title text-muted text-center">Keiko Ayano  </h4>
+          <h5 class="subtitle text-muted text-center">Silica</h5>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 col-6 portfolio-item">
+          <div class="card" style="background-color: black;">
+            <a href="#"><img class="card-img-top" src="images/portfolio/Agil.jpg" alt=""></a> 
+          </div>
+          <h4 class="title text-muted text-center">Andrew Gilbert Mills</h4>
+          <h5 class="subtitle text-muted text-center">Agil</h5>
+        </div>
+
+      </div>
+    </div>  
+
+  <!-- Footer -->
+    <footer class="py-5 bg-dark" id="footer">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; SAO 2021</p>
+      </div>
+    </footer>
+
+  <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+
+</html>
